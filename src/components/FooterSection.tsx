@@ -21,7 +21,9 @@ const FooterSection = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <h3 className="font-serif text-2xl font-bold text-primary-foreground">
-              Ashborne <span className="text-gold">Financial</span> Legacy
+              <span className="text-brand-red">Ashborne</span>{" "}
+              <span className="text-primary-foreground" style={{ WebkitTextStroke: '0.5px hsl(var(--primary-foreground) / 0.4)' }}>Financial</span>{" "}
+              <span className="text-gold">Legacy</span>
             </h3>
             <p className="mt-4 text-primary-foreground/60 max-w-sm leading-relaxed">
               Personalized financial strategies that eliminate debt and build generational wealth
