@@ -51,6 +51,7 @@
     --gold: 37 90% 44%;
     --gold-light: 37 90% 56%;
     --slate-bg: 210 40% 98%;
+    --brand-red: 0 72% 51%;
 
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-sans: 'Inter', system-ui, sans-serif;
@@ -89,6 +90,7 @@
     --gold: 37 90% 44%;
     --gold-light: 37 90% 56%;
     --slate-bg: 210 40% 98%;
+    --brand-red: 0 72% 51%;
   }
 }
 

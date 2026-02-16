@@ -16,7 +16,9 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
       <div className="container-max flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 md:h-20">
         <a href="#" className="font-serif text-xl md:text-2xl font-semibold text-foreground tracking-tight">
-          Ashborne <span className="text-gold">Financial</span> Legacy
+          <span className="text-brand-red">Ashborne</span>{" "}
+            <span className="text-foreground" style={{ WebkitTextStroke: '0.5px hsl(var(--muted-foreground))' }}>Financial</span>{" "}
+            <span className="text-gold">Legacy</span>
         </a>
 
         {/* Desktop links */}
