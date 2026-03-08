@@ -18,7 +18,7 @@ const audiences = [
     icon: Briefcase,
     title: "Small Businesses",
     description:
-      "Structuring debt and implementing benefits that retain talent. Creative solutions that help your business thrive and grow.",
+      "Structuring debt and identifying financial tools to strengthen your bottom line, while implementing benefits that recruit and retain top talent.",
   },
 ];
 
