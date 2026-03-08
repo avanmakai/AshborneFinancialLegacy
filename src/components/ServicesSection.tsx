@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { HeartPulse, Landmark, GraduationCap, Lightbulb } from "lucide-react";
+import { HeartPulse, Landmark, Lightbulb } from "lucide-react";
 
 const services = [
   {
@@ -13,12 +13,6 @@ const services = [
     title: "Annuities & Retirement",
     description:
       "Secure guaranteed income streams and protect your nest egg from market volatility with fixed and indexed annuity strategies.",
-  },
-  {
-    icon: GraduationCap,
-    title: "Education Planning",
-    description:
-      "529 plans, UTMA accounts, and alternative education funding vehicles to give your children every opportunity without crushing debt.",
   },
   {
     icon: Lightbulb,
@@ -50,7 +44,7 @@ const ServicesSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-6">
           {services.map((service, i) => (
             <motion.div
               key={service.title}
