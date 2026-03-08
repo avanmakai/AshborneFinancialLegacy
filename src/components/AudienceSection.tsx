@@ -6,7 +6,7 @@ const audiences = [
     icon: User,
     title: "Individuals",
     description:
-      "Tailored plans to regain financial freedom and personal security. We work with your unique situation to create a roadmap to independence.",
+      "Tailored plans to achieve financial freedom and personal security. We work with your unique situation to create a fully customized roadmap to achieve the outcomes that matter to you.",
   },
   {
     icon: Users,
