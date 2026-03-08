@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { HeartPulse, Landmark, GraduationCap, Lightbulb } from "lucide-react";
+import { HeartPulse, Landmark, Lightbulb } from "lucide-react";
 
 const services = [
   {
