@@ -12,7 +12,7 @@ const audiences = [
     icon: Users,
     title: "Families",
     description:
-      "Protecting your home, independence, and securing a legacy for your children's future. We offer family-focused strategies that safeguard what matters the most to you.",
+      "Protecting your home, independence, and securing a legacy for your children's future. We offer family-focused strategies that safeguard your lineage and legacy.",
   },
   {
     icon: Briefcase,
