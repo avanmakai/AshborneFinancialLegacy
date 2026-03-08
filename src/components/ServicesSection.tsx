@@ -15,12 +15,6 @@ const services = [
       "Secure guaranteed income streams and protect your nest egg from market volatility with fixed and indexed annuity strategies.",
   },
   {
-    icon: GraduationCap,
-    title: "Education Planning",
-    description:
-      "529 plans, UTMA accounts, and alternative education funding vehicles to give your children every opportunity without crushing debt.",
-  },
-  {
     icon: Lightbulb,
     title: "Alternative Financial Tools",
     description:
