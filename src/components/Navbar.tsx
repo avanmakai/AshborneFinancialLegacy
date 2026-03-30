@@ -3,10 +3,10 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Who We Serve", href: "#audience" },
-  { label: "The Process", href: "#approach" },
-  { label: "Contact", href: "#contact" },
+  { label: "Our Methods", href: "#approach" },
+  { label: "How We Work", href: "#how-we-work" },
+  { label: "Our Story", href: "#our-story" },
+  { label: "Contact", href: "#contact-form" },
 ];
 
 const Navbar = () => {
@@ -17,11 +17,10 @@ const Navbar = () => {
       <div className="container-max flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 md:h-20">
         <a href="#" className="font-serif text-xl md:text-2xl font-semibold text-foreground tracking-tight">
           <span className="text-brand-red">Ashborne</span>{" "}
-            <span className="text-foreground" style={{ WebkitTextStroke: '0.5px hsl(var(--muted-foreground))' }}>Financial</span>{" "}
-            <span className="text-gold">Legacy</span>
+          <span className="text-foreground" style={{ WebkitTextStroke: '0.5px hsl(var(--muted-foreground))' }}>Financial</span>{" "}
+          <span className="text-gold">Legacy</span>
         </a>
 
-        {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
@@ -33,14 +32,13 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contact"
-            className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-md"
+            href="#contact-form"
+            className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-md"
           >
-            Free Consultation
+            Start Your Journey
           </a>
         </div>
 
-        {/* Mobile toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="md:hidden text-foreground p-2"
@@ -50,7 +48,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -71,11 +68,11 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="#contact"
+                href="#contact-form"
                 onClick={() => setMobileOpen(false)}
-                className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium mt-2"
+                className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-5 py-2.5 text-sm font-medium mt-2"
               >
-                Free Consultation
+                Start Your Journey
               </a>
             </div>
           </motion.div>
