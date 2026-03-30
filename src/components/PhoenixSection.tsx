@@ -3,8 +3,13 @@ import { Flame } from "lucide-react";
 
 const PhoenixSection = () => {
   return (
-    <section id="phoenix" className="section-padding bg-secondary relative overflow-hidden">
-      {/* Decorative ember glow */}
+    <section
+      id="our-story"
+      className="section-padding relative overflow-hidden"
+      style={{
+        background: "linear-gradient(135deg, hsl(0 72% 20%) 0%, hsl(0 72% 12%) 40%, hsl(0 0% 5%) 100%)",
+      }}
+    >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-gold/5 blur-3xl pointer-events-none" />
 
       <div className="container-max relative z-10">
@@ -16,10 +21,10 @@ const PhoenixSection = () => {
           className="text-center mb-12"
         >
           <span className="text-sm font-semibold text-gold uppercase tracking-widest">
-            Who We Are
+            Our Story
           </span>
-          <h2 className="mt-3 font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Why the Phoenix?
+          <h2 className="mt-3 font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
+            Why We Built Ashborne
           </h2>
         </motion.div>
 
@@ -36,56 +41,39 @@ const PhoenixSection = () => {
             </div>
 
             <blockquote className="text-center space-y-6">
-              <p className="text-muted-foreground text-lg leading-relaxed italic">
-                We are told that nothing is certain but death and taxes—but{" "}
-                <span className="text-foreground font-semibold not-italic">
-                  debt is not a life sentence.
+              <p className="text-white/80 text-lg leading-relaxed">
+                They say nothing is certain but death and taxes—but{" "}
+                <span className="text-white font-semibold">
+                  debt does not have to be a life sentence.
                 </span>{" "}
-                Your current situation does not dictate your future.
+                Your current financial situation does not dictate your future. That is why the
+                phoenix is our symbol.
               </p>
 
-              <p className="text-muted-foreground text-lg leading-relaxed">
-                This is why I chose the phoenix as our symbol. It burns brightly
-                until it turns to ash. But within those ashes lies an ember that
-                sparks a new life. The question we must ask ourselves is:{" "}
+              <p className="text-white/80 text-lg leading-relaxed">
+                A phoenix burns brightly until it turns to ash, but within those ashes lies the
+                ember that sparks an entirely new life. The question you have to ask yourself is:{" "}
                 <span className="text-gold font-semibold italic">
-                  Is your fire finally burning hot enough to cause you to join
-                  the Ashborne?
+                  Are you ready to ignite that spark and join the Ashborne?
                 </span>
               </p>
 
-              <p className="text-muted-foreground text-lg leading-relaxed">
+              <p className="text-white/80 text-lg leading-relaxed">
                 I founded{" "}
                 <span className="font-semibold">
                   <span className="text-brand-red">Ashborne</span>{" "}
-                  <span className="text-foreground">Financial</span>{" "}
+                  <span className="text-white">Financial</span>{" "}
                   <span className="text-gold">Legacy</span>
                 </span>{" "}
-                in 2025 to help you find that new beginning. I know the path
-                because I have walked it. Years ago, I took a leap of faith,
-                applying the exact wealth-building strategies I now teach to my
-                clients.
+                in 2025 to help you find that new beginning. I know the path because I have walked
+                it. Years ago, I took a leap of faith, applying the exact debt-elimination and
+                wealth-building strategies I now teach in my 1-on-1 coaching sessions.
               </p>
 
-              <p className="font-serif text-2xl sm:text-3xl font-bold text-foreground mt-8">
+              <p className="font-serif text-2xl sm:text-3xl font-bold text-white mt-8">
                 Let us help you rise.
               </p>
             </blockquote>
-
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="mt-10"
-            >
-              <a
-                href="#contact"
-                className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg"
-              >
-                Start Your Transformation
-              </a>
-            </motion.div>
           </motion.div>
         </div>
       </div>
