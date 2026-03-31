@@ -59,10 +59,11 @@ const PhoenixSection = () => {
               </p>
 
               <p className="text-white/80 text-lg leading-relaxed">
-                If you're ready to move beyond debt and toward financial independence,{" "}
-                <span className="text-gold font-semibold italic">
-                  I'm here to help you rise.
-                </span>
+                If you're ready to move beyond debt and toward financial independence—
+              </p>
+
+              <p className="font-serif text-2xl sm:text-3xl font-bold text-gold mt-4">
+                I'm here to help you rise.
               </p>
             </blockquote>
           </motion.div>
