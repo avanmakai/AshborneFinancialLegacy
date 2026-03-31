@@ -42,36 +42,27 @@ const PhoenixSection = () => {
 
             <blockquote className="text-center space-y-6">
               <p className="text-white/80 text-lg leading-relaxed">
-                They say nothing is certain but death and taxes—but{" "}
-                <span className="text-white font-semibold">
-                  debt does not have to be a life sentence.
-                </span>{" "}
-                Your current financial situation does not dictate your future. That is why the
-                phoenix is our symbol.
-              </p>
-
-              <p className="text-white/80 text-lg leading-relaxed">
-                A phoenix burns brightly until it turns to ash, but within those ashes lies the
-                ember that sparks an entirely new life. The question you have to ask yourself is:{" "}
-                <span className="text-gold font-semibold italic">
-                  Are you ready to ignite that spark and join the Ashborne?
-                </span>
-              </p>
-
-              <p className="text-white/80 text-lg leading-relaxed">
-                I founded{" "}
+                Your financial past shouldn't hold your future hostage. That's the philosophy behind{" "}
                 <span className="font-semibold">
                   <span className="text-brand-red">Ashborne</span>{" "}
                   <span className="text-white">Financial</span>{" "}
                   <span className="text-gold">Legacy</span>
-                </span>{" "}
-                in 2025 to help you find that new beginning. I know the path because I have walked
-                it. Years ago, I took a leap of faith, applying the exact debt-elimination and
-                wealth-building strategies I now teach in my 1-on-1 coaching sessions.
+                </span>.
               </p>
 
-              <p className="font-serif text-2xl sm:text-3xl font-bold text-white mt-8">
-                Let us help you rise.
+              <p className="text-white/80 text-lg leading-relaxed">
+                The phoenix represents a new beginning—a transition from financial strain to total
+                clarity. I know the weight of debt because I've carried it myself. By applying the
+                same rigorous wealth-building principles I now teach, I was able to find a path to
+                freedom. Now, I work 1-on-1 with clients to help them navigate that same journey
+                with confidence.
+              </p>
+
+              <p className="text-white/80 text-lg leading-relaxed">
+                If you're ready to move beyond debt and toward financial independence,{" "}
+                <span className="text-gold font-semibold italic">
+                  I'm here to help you rise.
+                </span>
               </p>
             </blockquote>
           </motion.div>
