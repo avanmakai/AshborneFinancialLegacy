@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Flame } from "lucide-react";
 
 const PhoenixSection = () => {
   return (
@@ -36,11 +35,8 @@ const PhoenixSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="flex flex-col items-center"
           >
-            <div className="w-20 h-20 rounded-full bg-gold/15 flex items-center justify-center mb-8">
-              <Flame className="w-10 h-10 text-gold" />
-            </div>
-
             <blockquote className="text-center space-y-6">
+
               <p className="text-white/80 text-lg leading-relaxed">
                 Your financial past shouldn't hold your future hostage. That's the philosophy behind{" "}
                 <span className="font-semibold">
