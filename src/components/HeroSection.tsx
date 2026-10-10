@@ -23,13 +23,12 @@ const HeroSection = () => {
           </div>
 
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground leading-tight max-w-4xl mx-auto">
-            Rise Above Debt.{" "}
-            <span className="text-gold-gradient">Build Your Legacy.</span>
+            Burn Down Debt.{" "}
+            <span className="text-gold-gradient">Ignite Your Future.</span>
           </h1>
 
           <p className="mt-6 text-lg sm:text-xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed font-sans">
-            Empowering families, small business owners, and high-income earners to eliminate debt
-            and create generational wealth through personalized, 1-on-1 financial education.
+            Ashborne Financial Legacy was created to empower individuals, families, and small businesses on their path to eliminate debt and create generational wealth through personalized, 1-on-1 financial education.
           </p>
         </motion.div>
 
