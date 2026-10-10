@@ -16,11 +16,6 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-gold/40 bg-gold/10">
-            <span className="text-sm font-medium text-gold-light tracking-wide">
-              Trusted Financial Guidance
-            </span>
-          </div>
 
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground leading-tight max-w-4xl mx-auto">
             Burn Down Debt.{" "}
