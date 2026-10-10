@@ -52,8 +52,9 @@ const ApproachSection = () => {
             Proven Strategies for Financial Freedom
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-            We don't believe in a one-size-fits-all approach. Through educational coaching, we help
-            you apply the right strategies to your unique cash flow:
+            There are many thoughts on the proper way to handle money.<br />
+            The best way isn't a single choice. It is what is best for YOU.<br />
+            Ashborne takes the time to find out YOUR goals and provide you select the best way to get there.&nbsp;
           </p>
         </motion.div>
 

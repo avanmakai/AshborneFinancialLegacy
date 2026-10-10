@@ -20,7 +20,7 @@ const HowWeWorkSection = () => {
             </h2>
             <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
               Financial literacy isn't taught; it is learned. At Ashborne Financial Legacy, we
-              provide a non-judgmental space focused entirely on education. Through personalized
+              provide a non-judgmental space focused entirely on education and accountability. Through personalized
               1-on-1 coaching sessions, we empower you to take control of your cash flow, understand
               your options, and confidently build a strategy that works for your family or business.
             </p>
