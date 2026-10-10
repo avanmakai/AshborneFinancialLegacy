@@ -11,9 +11,7 @@ const ContactSection = () => {
     name: "",
     email: "",
     phone: "",
-    shortTermGoals: "",
-    longTermGoals: "",
-    cashFlowOverview: "",
+    financialOutcomeGoals: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -39,20 +37,15 @@ const ContactSection = () => {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
-          message: [
-            formData.shortTermGoals && `Short-Term Financial Goals:\n${formData.shortTermGoals}`,
-            formData.longTermGoals && `Long-Term Generational Wealth Goals:\n${formData.longTermGoals}`,
-            formData.cashFlowOverview && `Current Cash Flow Overview:\n${formData.cashFlowOverview}`,
-          ]
-            .filter(Boolean)
-            .join("\n\n") || "No additional details provided.",
+          financialOutcomeGoals: formData.financialOutcomeGoals,
+          message: formData.financialOutcomeGoals || "No additional details provided.",
         },
       });
 
       if (error) throw error;
 
       setIsSuccess(true);
-      setFormData({ name: "", email: "", phone: "", shortTermGoals: "", longTermGoals: "", cashFlowOverview: "" });
+      setFormData({ name: "", email: "", phone: "", financialOutcomeGoals: "" });
       toast({ title: "Request sent successfully!", description: "We'll be in touch shortly." });
       setTimeout(() => setIsSuccess(false), 5000);
     } catch (err) {
@@ -143,48 +136,16 @@ const ContactSection = () => {
           </div>
 
           <div>
-            <label htmlFor="shortTermGoals" className="block text-sm font-medium text-foreground mb-1.5">
-              Short-Term Financial Goals
-            </label>
-            <textarea
-              id="shortTermGoals"
-              name="shortTermGoals"
-              rows={3}
-              placeholder="What financial goals do you want to achieve in the near future?"
-              value={formData.shortTermGoals}
-              onChange={handleChange}
-              maxLength={1000}
-              className={textareaClasses}
-            />
-          </div>
-
-          <div>
-            <label htmlFor="longTermGoals" className="block text-sm font-medium text-foreground mb-1.5">
-              Long-Term Generational Wealth Goals
-            </label>
-            <textarea
-              id="longTermGoals"
-              name="longTermGoals"
-              rows={3}
-              placeholder="What does building generational wealth look like for you?"
-              value={formData.longTermGoals}
-              onChange={handleChange}
-              maxLength={1000}
-              className={textareaClasses}
-            />
-          </div>
-
-          <div>
-            <label htmlFor="cashFlowOverview" className="block text-sm font-medium text-foreground mb-1.5">
-              Current Cash Flow Overview{" "}
+            <label htmlFor="financialOutcomeGoals" className="block text-sm font-medium text-foreground mb-1.5">
+              Financial Outcome Goals{" "}
               <span className="text-muted-foreground font-normal">(Optional)</span>
             </label>
             <textarea
-              id="cashFlowOverview"
-              name="cashFlowOverview"
+              id="financialOutcomeGoals"
+              name="financialOutcomeGoals"
               rows={3}
-              placeholder="Brief summary of your income vs. debt…"
-              value={formData.cashFlowOverview}
+              placeholder="Brief summary of your current debt and debt-free timeline…"
+              value={formData.financialOutcomeGoals}
               onChange={handleChange}
               maxLength={1000}
               className={textareaClasses}
