@@ -29,7 +29,7 @@ const reasons = [
   {
     title: "Mission: People",
     description:
-      "Taking care of people is the reason I have started this business. Food. Water. Shelter. Hope. ",
+      "Taking care of people is the reason I have started this business.\nFood. Water. Shelter. Hope. ",
   },
 ];
 
@@ -68,7 +68,7 @@ const WhyAshborneSection = () => {
               className="bg-card rounded-xl p-6 border border-border hover:border-gold/30 hover:shadow-lg transition-all duration-300"
             >
               <h3 className="font-serif text-xl font-bold text-foreground mb-2">{reason.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{reason.description}</p>
+              <p className="text-muted-foreground leading-relaxed whitespace-pre-line">{reason.description}</p>
             </motion.div>
           ))}
         </div>
