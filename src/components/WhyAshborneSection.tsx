@@ -19,7 +19,7 @@ const reasons = [
   {
     title: "Nonprofits",
     description:
-      "The nonprofits I select generally reflect my values to provide clean, safe, affordable, and sustainable housing. ",
+      "The nonprofits I select generally reflect my values and work to provide clean, safe, affordable, and sustainable housing. ",
   },
   {
     title: "Accountability Between Sessions",
