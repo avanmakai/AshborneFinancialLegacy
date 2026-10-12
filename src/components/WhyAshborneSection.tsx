@@ -29,7 +29,7 @@ const reasons = [
   {
     title: "Nonprofit Mission: People",
     description:
-      "",
+      "To help individuals and families meet basic needs, rebuild stability, and move forward with dignity.",
   },
 ];
 
