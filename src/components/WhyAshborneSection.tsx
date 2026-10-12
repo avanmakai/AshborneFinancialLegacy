@@ -72,7 +72,7 @@ const WhyAshborneSection = () => {
             </motion.div>
           ))}
         </div>
-
+      </div>
     </section>
   );
 };
