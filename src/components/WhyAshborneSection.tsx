@@ -9,7 +9,7 @@ const reasons = [
   {
     title: "Fees",
     description:
-      "In alignment with my maxim: a minimum of 60% of all fees collected will be donated to nonprofit.",
+      "In alignment with my maxim: a minimum of 60% of all fees collected will be donated to nonprofit. ",
   },
   {
     title: "Commissions",
@@ -29,7 +29,7 @@ const reasons = [
   {
     title: "Nonprofit Mission: People",
     description:
-      "To help individuals and families meet basic needs, rebuild stability, and move forward with dignity.",
+      "Taking care of people is the reason I have started this business. \nFood. Water. Shelter. Hope. ",
   },
 ];
 
@@ -51,9 +51,9 @@ const WhyAshborneSection = () => {
             Why Work With Ashborne?
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-            My maxim is: I live to serve.  
-            I have served 20 years with the National Guard and Reserves.
-            <br />My passion to serve others and bring positivity into the world is what has guided me to start this business.
+            My maxim is: I live to serve.   <br />
+            I have served 20 years with the National Guard and Reserves.<br />
+            My passion to serve others and bring positivity into the world is what has guided me to start this business.
           </p>
         </motion.div>
 
