@@ -11,15 +11,15 @@ const strategies = [
   },
   {
     title: "Debt Tsunami",
-    description: "If there is a debt that is hanging over your head, this method works to eliminate that debt and feeling. ",
+    description: "If there is a debt that is hanging over your head, this method works to eliminate that debt to help you sleep better at night. ",
   },
   {
     title: "Cash Flow Index",
-    description: "Identify the most efficient debts to pay off. Improving both cashflow and net worth",
+    description: "Identify the most efficient debts to pay off. Improving both cashflow and net worth.",
   },
   {
     title: "Velocity Banking",
-    description: "Revolving lines of credit are the hero of this story. Eliminate debt at blinding speeds while saving hundreds on interest.",
+    description: "Revolving lines of credit are the hero of this story. Eliminate debt at blinding speeds while saving hundreds on interest monthly.",
   },
   {
     title: "Cashflow Hacking",
