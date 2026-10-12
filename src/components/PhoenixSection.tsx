@@ -49,8 +49,8 @@ const PhoenixSection = () => {
               <p className="text-white/80 text-lg leading-relaxed">
                 The phoenix represents a new beginning—a transition from financial strain to total
                 clarity. I know the weight of debt because I've carried it myself. By applying the
-                same rigorous wealth-building principles I now teach, I was able to find a path to
-                freedom. Now, I work with clients 1-on-1 to help them navigate their own journey with confidence.
+                 same rigorous debt-eliminating and wealth-building tactics I now share, I was able to find a path to
+                 freedom. Now, I work with clients 1-on-1 to help them navigate their own journey with confidence and support.
               </p>
 
               <p className="text-white/80 text-lg leading-relaxed">

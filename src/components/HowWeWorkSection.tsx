@@ -15,13 +15,16 @@ const HowWeWorkSection = () => {
             How We Work
           </span>
           <h2 className="mt-3 font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Education Through 1-on-1 Coaching
+            What to Expect
           </h2>
           <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
-            Financial literacy isn't taught; it is learned. At Ashborne Financial Legacy, we
-            provide a non-judgmental space focused entirely on education and accountability. Through personalized
-            1-on-1 coaching sessions, we empower you to take control of your cash flow, understand
-            your options, and confidently build a strategy that works for your family or business.
+            At Ashborne Financial Legacy, our goal is education and accountability.
+            <br />We will start by assessing your current financial situation.
+            <br />Then we will focus on what end goal is.&nbsp;
+            <br />Together we will identify which options are available to you, and together, we will select your path forward.
+            <br />Once we have identified your plan, you are not sent off alone.
+            <br />We will work together every step of the way with regular check-ins.
+            <br />When something inevitably comes up, we will adapt and overcome as a team.
           </p>
         </motion.div>
       </div>
