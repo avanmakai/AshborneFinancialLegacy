@@ -31,13 +31,13 @@ const reasons = [
 const WhyAshborneSection = () => {
   return (
     <section id="why-ashborne" className="section-padding bg-secondary">
-      <div className="container-max grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+      <div className="container-max grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="lg:sticky lg:top-32"
+          className="max-w-md"
         >
           <span className="text-sm font-semibold text-gold uppercase tracking-widest">
             Why Ashborne
@@ -56,6 +56,9 @@ const WhyAshborneSection = () => {
           >
             Start Your Journey
           </a>
+          <p className="mt-8 font-serif text-lg italic text-muted-foreground">
+            You bring the willingness. We bring the plan.
+          </p>
         </motion.div>
 
         <div className="space-y-px">
