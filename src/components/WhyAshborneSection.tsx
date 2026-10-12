@@ -50,6 +50,9 @@ const WhyAshborneSection = () => {
             built on education, honesty, and follow-through — not on judgment
             about where you are starting from.
           </p>
+          <p className="mt-10 font-serif text-xl italic text-foreground/80 border-l-2 border-gold/40 pl-5 leading-relaxed">
+            Debt is not a life sentence. It is a problem with a process.
+          </p>
           <a
             href="#contact-form"
             className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg min-w-[220px] mt-auto"
