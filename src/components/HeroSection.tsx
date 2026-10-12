@@ -18,7 +18,7 @@ const HeroSection = () => {
         >
 
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground leading-tight max-w-4xl mx-auto">
-            Burn Down Debt.{" "}
+            Burn Down Debt.&nbsp;
             <span className="text-gold-gradient">Ignite Your Future.</span>
           </h1>
 
