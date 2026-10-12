@@ -15,6 +15,7 @@ const Index = () => {
       <ApproachSection />
       <HowWeWorkSection />
       <PhoenixSection />
+      <WhyAshborneSection />
       <ContactSection />
       <FooterSection />
     </div>
