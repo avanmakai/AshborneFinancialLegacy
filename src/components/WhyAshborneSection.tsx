@@ -29,7 +29,7 @@ const reasons = [
   {
     title: "Nonprofit Mission: People",
     description:
-      "",
+      "To help individuals and families meet basic needs, rebuild stability, and move forward with dignity.",
   },
 ];
 
@@ -72,27 +72,6 @@ const WhyAshborneSection = () => {
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.6 }}
-          className="mt-14 text-center"
-        >
-          <p className="font-serif text-xl italic text-foreground/80 mb-8">
-            Debt is not a life sentence. It is a problem with a process.
-          </p>
-          <a
-            href="#contact-form"
-            className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg min-w-[220px]"
-          >
-            Start Your Journey
-          </a>
-          <p className="mt-5 font-serif text-lg italic text-muted-foreground">
-            You bring the willingness. We bring the plan.
-          </p>
-        </motion.div>
       </div>
     </section>
   );
