@@ -26,36 +26,66 @@ const reasons = [
     description:
       "Regular check-ins keep your plan moving when life inevitably intervenes.",
   },
+  {
+    title: "Adapt and Overcome, Together",
+    description:
+      "When something inevitably comes up, we adjust the plan as a team so you are never sent off alone.",
+  },
 ];
 
 const WhyAshborneSection = () => {
   return (
-    <section id="why-ashborne" className="section-padding bg-secondary">
-      <div className="container-max grid lg:grid-cols-2 gap-12 lg:gap-20">
+    <section id="why-ashborne" className="section-padding bg-background">
+      <div className="container-max">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="max-w-md"
+          className="text-center mb-16"
         >
           <span className="text-sm font-semibold text-gold uppercase tracking-widest">
             Why Ashborne
           </span>
-          <h2 className="mt-3 font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+          <h2 className="mt-3 font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
             Why Work With Ashborne?
           </h2>
-          <p className="mt-5 text-muted-foreground text-lg leading-relaxed">
+          <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
             Because you deserve to understand your own money. Every engagement is
             built on education, honesty, and follow-through — not on judgment
             about where you are starting from.
           </p>
-          <p className="mt-6 font-serif text-xl italic text-foreground/80 border-l-2 border-gold/40 pl-5 leading-relaxed">
+        </motion.div>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {reasons.map((reason, index) => (
+            <motion.div
+              key={reason.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="bg-card rounded-xl p-6 border border-border hover:border-gold/30 hover:shadow-lg transition-all duration-300"
+            >
+              <h3 className="font-serif text-xl font-bold text-foreground mb-2">{reason.title}</h3>
+              <p className="text-muted-foreground leading-relaxed">{reason.description}</p>
+            </motion.div>
+          ))}
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.6 }}
+          className="mt-14 text-center"
+        >
+          <p className="font-serif text-xl italic text-foreground/80 mb-8">
             Debt is not a life sentence. It is a problem with a process.
           </p>
           <a
             href="#contact-form"
-            className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg min-w-[220px] mt-8"
+            className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg min-w-[220px]"
           >
             Start Your Journey
           </a>
@@ -63,31 +93,6 @@ const WhyAshborneSection = () => {
             You bring the willingness. We bring the plan.
           </p>
         </motion.div>
-
-        <div className="space-y-px">
-          {reasons.map((reason, index) => (
-            <motion.div
-              key={reason.title}
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5, delay: index * 0.08 }}
-              className="flex gap-5 border-b border-border/70 py-4 first:pt-0"
-            >
-              <span className="font-serif text-2xl font-bold text-gold/70 leading-none pt-1 min-w-[2rem]">
-                {String(index + 1).padStart(2, "0")}
-              </span>
-              <div>
-                <h3 className="font-serif text-xl font-bold text-foreground mb-1.5">
-                  {reason.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  {reason.description}
-                </p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
       </div>
     </section>
   );
