@@ -4,17 +4,17 @@ const reasons = [
   {
     title: "Pricing",
     description:
-      "You shouldn't have to pay for something that doesn't work. Your pricing is based on the results we see. ",
+      "You shouldn't have to pay for something that doesn't work. Your pricing is based on the results you see in your bank account. ",
   },
   {
-    title: "Payments",
+    title: "Fees",
     description:
-      "In lieu of payment to me, you can opt for donating to a nonprofit I have selected.",
+      "In alignment with my maxim: a minimum of 60% of all fees collected will be donated to nonprofit.",
   },
   {
-    title: "A Plan Built for Your Cash Flow",
+    title: "Commissions",
     description:
-      "The right method depends on your situation, not a single formula. We find the path that fits yours.",
+      "Since commissions are subject to chargebacks, they will be held in bonds for 9-12 months before being donated.",
   },
   {
     title: "Someone Who Has Walked the Path",
