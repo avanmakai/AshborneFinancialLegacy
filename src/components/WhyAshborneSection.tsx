@@ -7,9 +7,9 @@ const reasons = [
       "You shouldn't have to pay for something that doesn't work. Your pricing is based on the results we see. ",
   },
   {
-    title: "Education, Not Products",
+    title: "Payments",
     description:
-      "Nothing is sold to you. You learn the why behind every option, so the decision stays yours.",
+      "In lieu of payment to me, you can opt for donating to a nonprofit I have selected.",
   },
   {
     title: "A Plan Built for Your Cash Flow",
