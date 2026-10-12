@@ -17,19 +17,19 @@ const reasons = [
       "Client commissions subject to chargebacks, they will be held in bonds for 9-12 months before being donated.",
   },
   {
-    title: "Nonprofits",
+    title: "Nonprofit Mission: Housing",
     description:
-      "The nonprofits I select generally reflect my values and work to provide clean, safe, affordable, and sustainable housing. ",
+      "To provide clean, safe, affordable, and sustainable transitional housing and sober living facilities.",
   },
   {
-    title: "Accountability Between Sessions",
+    title: "Nonprofit Mission: Environment",
     description:
-      "Regular check-ins keep your plan moving when life inevitably intervenes.",
+      "To improve sustainability. Provide grants for the advancement of technology and  efficiency.",
   },
   {
-    title: "Adapt and Overcome, Together",
+    title: "Nonprofit Mission: People",
     description:
-      "When something inevitably comes up, we adjust the plan as a team so you are never sent off alone.",
+      "",
   },
 ];
 
