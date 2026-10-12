@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ApproachSection from "@/components/ApproachSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
 import PhoenixSection from "@/components/PhoenixSection";
+import WhyAshborneSection from "@/components/WhyAshborneSection";
 import ContactSection from "@/components/ContactSection";
 import FooterSection from "@/components/FooterSection";
 
