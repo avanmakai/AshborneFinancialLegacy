@@ -31,7 +31,7 @@ const FooterSection = () => {
           <div className="w-full max-w-xl h-px bg-primary-foreground/10" />
 
           <p className="text-sm text-primary-foreground/40">
-            © {new Date().getFullYear()} Ashborne Financial Legacy. All Rights Reserved.
+            Ashborne Financial Legacy. All Rights Reserved.
           </p>
 
           <p className="text-xs text-primary-foreground/30 max-w-3xl leading-relaxed">

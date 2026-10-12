@@ -19,7 +19,7 @@ const reasons = [
   {
     title: "Nonprofit Mission: Housing",
     description:
-      "To provide clean, safe, affordable, and sustainable transitional housing and sober living facilities.",
+      "To provide clean, safe, affordable, and sustainable transitional housing, sober living facilities, and family housing.",
   },
   {
     title: "Nonprofit Mission: Environment",
@@ -29,7 +29,7 @@ const reasons = [
   {
     title: "Nonprofit Mission: People",
     description:
-      "Taking care of people is the reason I have started this business. \nFood. Water. Shelter. Hope. ",
+      "Taking care of people is the reason I have started this business.  \nFood. Water. Shelter. Hope. ",
   },
 ];
 
