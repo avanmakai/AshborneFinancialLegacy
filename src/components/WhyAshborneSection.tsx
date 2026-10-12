@@ -50,16 +50,16 @@ const WhyAshborneSection = () => {
             built on education, honesty, and follow-through — not on judgment
             about where you are starting from.
           </p>
-          <p className="mt-10 font-serif text-xl italic text-foreground/80 border-l-2 border-gold/40 pl-5 leading-relaxed">
+          <p className="mt-8 font-serif text-xl italic text-foreground/80 border-l-2 border-gold/40 pl-5 leading-relaxed">
             Debt is not a life sentence. It is a problem with a process.
           </p>
           <a
             href="#contact-form"
-            className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg min-w-[220px] mt-10"
+            className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg min-w-[220px] mt-8"
           >
             Start Your Journey
           </a>
-          <p className="mt-6 font-serif text-lg italic text-muted-foreground">
+          <p className="mt-4 font-serif text-lg italic text-muted-foreground">
             You bring the willingness. We bring the plan.
           </p>
         </motion.div>
@@ -72,7 +72,7 @@ const WhyAshborneSection = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: index * 0.08 }}
-              className="flex gap-5 border-b border-border/70 py-6 first:pt-0 last:border-b-0"
+              className="flex gap-5 border-b border-border/70 py-4 first:pt-0 last:border-b-0"
             >
               <span className="font-serif text-2xl font-bold text-gold/70 leading-none pt-1 min-w-[2rem]">
                 {String(index + 1).padStart(2, "0")}
