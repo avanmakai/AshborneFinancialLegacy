@@ -9,27 +9,27 @@ const reasons = [
   {
     title: "Fees",
     description:
-      "In alignment with my maxim: a minimum of 60% of all fees collected will be donated to nonprofit. ",
+      "In alignment with my maxim: a minimum of 60% of all fees collected will support the missions below.",
   },
   {
     title: "Commissions",
     description:
-      "Client commissions subject to chargebacks, they will be held in bonds for 9-12 months before being donated.",
+      "Any sales commissions subject to charge backs will be held in bonds for 9-12 months before going to support the missions.",
   },
   {
-    title: "Nonprofit Mission: Housing",
+    title: "Mission: Housing",
     description:
-      "To provide clean, safe, affordable, and sustainable transitional housing, sober living facilities, and family housing.",
+      "To provide clean, safe, affordable, and sustainable individual, family, and transitional housing as well as sober living facilities.",
   },
   {
-    title: "Nonprofit Mission: Environment",
+    title: "Mission: Environment",
     description:
       "To improve sustainability. Provide grants for the advancement of technology and  efficiency.",
   },
   {
-    title: "Nonprofit Mission: People",
+    title: "Mission: People",
     description:
-      "Taking care of people is the reason I have started this business.  \nFood. Water. Shelter. Hope. ",
+      "Taking care of people is the reason I have started this business.   \nFood. Water. Shelter. Hope. ",
   },
 ];
 
