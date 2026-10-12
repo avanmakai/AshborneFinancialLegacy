@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const reasons = [
   {
-    title: "Met Where You Are",
+    title: "Pricing",
     description:
-      "No lecture and no sales pitch. We start with your actual numbers and the life you are trying to build.",
+      "You shouldn't have to pay for something that doesn't work. Your pricing is based on the results we see. ",
   },
   {
     title: "Education, Not Products",
@@ -51,9 +51,9 @@ const WhyAshborneSection = () => {
             Why Work With Ashborne?
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-            Because you deserve to understand your own money. Every engagement is
-            built on education, honesty, and follow-through — not on judgment
-            about where you are starting from.
+            As the founder of Ashborne Financial Legacy, my maxim is: I live to serve. 
+            I have served 20 years with the National Guard and Reserves.
+            <br />My passion to serve others and bring positivity into the world is what has guided me to start this business.
           </p>
         </motion.div>
 
