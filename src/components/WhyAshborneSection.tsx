@@ -14,12 +14,12 @@ const reasons = [
   {
     title: "Commissions",
     description:
-      "Since commissions are subject to chargebacks, they will be held in bonds for 9-12 months before being donated.",
+      "Client commissions subject to chargebacks, they will be held in bonds for 9-12 months before being donated.",
   },
   {
-    title: "Someone Who Has Walked the Path",
+    title: "Nonprofits",
     description:
-      "The founder carried the same weight of debt and used these same tactics to find a way out.",
+      "The nonprofits I select generally reflect my values to provide clean, safe, affordable, and sustainable housing. ",
   },
   {
     title: "Accountability Between Sessions",
@@ -51,7 +51,7 @@ const WhyAshborneSection = () => {
             Why Work With Ashborne?
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-            As the founder of Ashborne Financial Legacy, my maxim is: I live to serve. 
+            My maxim is: I live to serve.  
             I have served 20 years with the National Guard and Reserves.
             <br />My passion to serve others and bring positivity into the world is what has guided me to start this business.
           </p>
