@@ -3,27 +3,27 @@ import { motion } from "framer-motion";
 const strategies = [
   {
     title: "Debt Snowball",
-    description: "Build momentum and motivation by conquering your smallest balances first.",
+    description: "Harness the power of the psychology of money with quick wins by eliminating the smallest debt.",
   },
   {
     title: "Debt Avalanche",
-    description: "Optimize your payoff by targeting high-interest debt to save money over time.",
+    description: "Apply mathematical principles to eliminate debt based on those with the highest interest rates. ",
   },
   {
     title: "Debt Tsunami",
-    description: "Regain your peace of mind by eliminating the debts that cause you the most emotional stress.",
+    description: "If there is a debt that is hanging over your head, this method works to eliminate that debt and feeling. ",
   },
   {
     title: "Cash Flow Index",
-    description: "Strategically analyze your loans to free up your monthly cash flow faster.",
+    description: "Identify the most efficient debts to pay off. Improving both cashflow and net worth",
   },
   {
     title: "Velocity Banking",
-    description: "Learn how to utilize lines of credit to accelerate debt payoff and drastically reduce interest.",
+    description: "Revolving lines of credit are the hero of this story. Eliminate debt at blinding speeds while saving hundreds on interest.",
   },
   {
-    title: "Infinite Banking Concept",
-    description: "Discover how to become your own banker to build, protect, and pass on generational wealth.",
+    title: "Cashflow Hacking",
+    description: "We will design your personal plan that allows you to earn uninterrupted compound interest while you leverage your new wealth to grow.",
   },
 ];
 
