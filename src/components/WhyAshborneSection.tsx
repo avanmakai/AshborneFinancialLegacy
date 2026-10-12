@@ -31,13 +31,13 @@ const reasons = [
 const WhyAshborneSection = () => {
   return (
     <section id="why-ashborne" className="section-padding bg-secondary">
-      <div className="container-max grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <div className="container-max grid lg:grid-cols-2 gap-12 lg:gap-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="max-w-md"
+          className="flex flex-col h-full max-w-md"
         >
           <span className="text-sm font-semibold text-gold uppercase tracking-widest">
             Why Ashborne
@@ -52,11 +52,11 @@ const WhyAshborneSection = () => {
           </p>
           <a
             href="#contact-form"
-            className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg min-w-[220px] mt-8"
+            className="inline-flex items-center justify-center rounded-lg bg-gold text-accent-foreground px-8 py-3.5 text-base font-semibold hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg min-w-[220px] mt-auto"
           >
             Start Your Journey
           </a>
-          <p className="mt-8 font-serif text-lg italic text-muted-foreground">
+          <p className="mt-6 font-serif text-lg italic text-muted-foreground">
             You bring the willingness. We bring the plan.
           </p>
         </motion.div>
