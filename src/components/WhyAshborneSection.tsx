@@ -29,7 +29,7 @@ const reasons = [
   {
     title: "Mission: People",
     description:
-      "Taking care of people is the reason I have started this business.                             Food. Water. Shelter. Hope. ",
+      "Taking care of people is the reason I have started this business. Food. Water. Shelter. Hope. ",
   },
 ];
 
