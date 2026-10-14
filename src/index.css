@@ -53,6 +53,13 @@
     --slate-bg: 210 40% 98%;
     --brand-red: 0 72% 51%;
 
+    --work-background: 222 37% 12%;
+    --work-foreground: 45 32% 94%;
+    --work-copy: 215 20% 85%;
+    --work-brass: 39 48% 64%;
+    --work-card: 220 30% 16%;
+    --work-border: 39 24% 36%;
+
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-sans: 'Inter', system-ui, sans-serif;
   }
@@ -110,6 +117,29 @@
 }
 
 @layer components {
+  .work-surface {
+    background-color: hsl(var(--work-background));
+    color: hsl(var(--work-foreground));
+  }
+
+  .work-cartography {
+    color: hsl(var(--work-brass));
+    opacity: 0.11;
+  }
+
+  .work-gold {
+    color: hsl(var(--work-brass));
+  }
+
+  .work-copy {
+    color: hsl(var(--work-copy));
+  }
+
+  .work-card {
+    background-color: hsl(var(--work-card));
+    border-color: hsl(var(--work-border));
+  }
+
   .section-padding {
     @apply px-4 sm:px-6 lg:px-8 py-16 md:py-24;
   }
