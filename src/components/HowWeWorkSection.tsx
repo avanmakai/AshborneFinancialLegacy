@@ -19,12 +19,10 @@ const HowWeWorkSection = () => {
           </h2>
           <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
             At Ashborne Financial Legacy, our goal is education and accountability.
-            <br />We will start by assessing your current financial situation.
-            <br />Then we will focus on what end goal is.&nbsp;
-            <br />Together we will identify which options are available to you, and together, we will select your path forward.
-            <br />Once we have identified your plan, you are not sent off alone.
-            <br />We will work together every step of the way with regular check-ins.
-            <br />When something inevitably comes up, we will adapt and overcome as a team.
+            <br />We begin by taking an analytical view of your current financial landscape and clearly define goals, objectives, and what success looks like.
+            <br />Once we have the end in mind, we begin making a plan and select a course of action that will take you to your desired destination.
+            <br />Once you're happy with the plan, we move forward together through regular check-ins.
+            <br />When life throws you a curve ball, we will adapt and overcome as a team.
           </p>
         </motion.div>
       </div>
