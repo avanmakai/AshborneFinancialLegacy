@@ -6,7 +6,6 @@ const navLinks = [
   { label: "Our Methods", href: "#approach" },
   { label: "How We Work", href: "#how-we-work" },
   { label: "Our Story", href: "#our-story" },
-  { label: "Why Ashborne", href: "#why-ashborne" },
   { label: "Contact", href: "#contact-form" },
 ];
 
